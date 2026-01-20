@@ -1,16 +1,46 @@
-# React + Vite
+Raport - Interaktywny pokaz slajdów w React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Imię i nazwisko: Beytullah Sami Yorulmaz
+Numer albumu: 58509 
 
-Currently, two official plugins are available:
+1. Cel zadania
+Celem zadania było stworzenie interaktywnego pokazu slajdów (galerii zdjęć) z wykorzystaniem biblioteki React oraz zewnętrznej biblioteki react-image-gallery. Aplikacja umożliwia użytkownikowi dynamiczną zmianę wyglądu galerii oraz zapewnia nowoczesny i responsywny interfejs.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Wykorzystane technologie
 
-## React Compiler
+React – budowa interfejsu użytkownika 
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Vite – narzędzie do tworzenia i uruchamiania projektu 
 
-## Expanding the ESLint configuration
+JavaScript (ES6) 
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Biblioteka react-image-gallery 
+
+CSS – stylowanie komponentów 
+
+localStorage – zapis ustawień użytkownika 
+
+3. Opis funkcjonalności aplikacji
+Wyświetlanie galerii zawierającej minimum sześć zdjęć zapisanych lokalnie w projekcie.
+
+Automatyczne przełączanie slajdów z możliwością zmiany interwału czasowego.
+
+Nawigacja pomiędzy slajdami za pomocą strzałek.
+
+Wyświetlanie miniatur zdjęć oraz możliwość zmiany ich położenia.
+
+Tryb pełnoekranowy.
+
+Tryb jasny i ciemny.
+
+Responsywność aplikacji na różnych rozdzielczościach ekranu.
+
+Zapisywanie ustawień użytkownika w localStorage.
+
+4. Struktura projektu
+Zdjęcia wykorzystywane w galerii zostały umieszczone w katalogu src/assets.
+
+Główny komponent aplikacji znajduje się w pliku App.jsx, w którym zaimplementowano logikę galerii oraz obsługę ustawień użytkownika.
+
+5. Wnioski
+Projekt spełnia wszystkie wymagania funkcjonalne zadania. Aplikacja jest czytelna, intuicyjna w obsłudze oraz estetyczna. Zastosowanie biblioteki react-image-gallery umożliwiło szybkie zaimplementowanie zaawansowanych funkcji galerii zdjęć
